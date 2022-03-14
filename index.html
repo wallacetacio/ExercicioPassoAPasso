@@ -8,15 +8,72 @@
 
     <style>
 
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image:url(/09_28_19_889_file.jpeg);
+            color: white;
+        }
+
+        .flex-container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(24, 30, 31, 0.801);
+            max-width: 1200px;
+            max-height: 1200px;
+        }
+
+        .direction{
+            flex-direction: row;
+        }
+
+        .largo{
+            align-self: stretch;
+            flex: 1;
+        }
+
+        a{
+            text-decoration: none;
+            color: greenyellow;
+        }
+
+        h1{
+            color: lightseagreen;
+        }        
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(24, 30, 31, 0.801);
+            color: #FFF;
+            width: 100%;
+            height: 100px;
+            margin: 0;    
+            text-align: center;
+            line-height: 100px;
+        }
+
     </style>
-</head>
-<body>
-    <h1>🚀 Passo-a-passo para se tornar um Dev</h1>
-    <p>Você já deu o passo mais importante, se interessar pelo assunto! Mas para aprender vai ter que passar por algumas etapas.</p>
-    <p>Vamos <a href="dev-cs.html">começar?</a></p>
-    <div>
-        <hr>
-    </div>
-    <p><a href="https://github.com/wallacetacio">Wallace Tácio</a> - Mongaguá - 2022</p>    
-</body>
-</html>
+    </head>    
+    <body>
+        <section class="flex-container">
+            <h1>🚀 Passo-a-passo para se tornar um Dev🚀</h1>
+            <p>Você já deu o passo mais importante, se interessar pelo assunto! Mas para aprender vai ter que passar por
+                algumas
+                etapas.</p>
+            <p>Vamos <a href="dev-cs.html">começar?</a></p>    
+        </section>
+        <div class="largo">
+            <hr >
+        </div>
+    </body>
+    <footer>
+        <p><a href="https://github.com/wallacetacio">Wallace Tácio</a> - Mongaguá - 2022</p>
+    </footer>
+    
+    
+    </html>
